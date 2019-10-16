@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gordon Petry</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+  <style>
+
+    html, body { height: 100%; width: 100%;}
+
+    body {
+      font-family: Arial, Verdana, sans-serif;
+      background-color: #323232;
+    }
+
+    nav {
+      display: block;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+			position: relative;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transform: translate3d(25px, -25px, 0);
+      transform: translate3d(25px, -25px, 0);
+      -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+      transition: -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+      transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+      transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+    }
+
+    nav.open {
+
+    }
+
+    .disc {
+      text-decoration: none;
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      font: 25px Alegreya Sans, sans-serif;
+      line-height: 40px;
+      padding-top: 10px;
+      border-radius: 50%;
+      -webkit-transform: scale3d(0.5, 0.5, 0.5) ;
+      transform: scale3d(0.5, 0.5, 0.5) ;
+      pointer-events: none;
+      opacity: 0;
+      cursor: pointer;
+      -webkit-transition: opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+      transition: opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+      transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), opacity 0.5s;
+      transition: transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9), opacity 0.5s, -webkit-transform 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+
+    }
+
+    .disc div {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+    .open .disc {
+      pointer-events: auto;
+      opacity: 1;
+    }
+
+    .l1 {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background: #08295e;
+      color: white;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l1 {
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      opacity: 1;
+    }
+
+    .open .l1:hover {
+      background: white;
+      color: #08295e;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l1:active {
+      background: #72a4f3;
+      color: #08295e;
+    }
+
+    .open .l1.toggle {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+    }
+
+    .l2 {
+      top: 50px;
+      left: 50px;
+      right: 50px;
+      bottom: 50px;
+      background: #0c3e8d;
+      color: white;
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+    }
+
+    .open .l2 {
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+      -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      opacity: 1;
+    }
+
+    .open .l2:hover {
+      background: white;
+      color: #0c3e8d;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l2:active {
+      background: #72a4f3;
+      color: #0c3e8d;
+    }
+
+    .open .l2.toggle {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+    }
+
+    .l3 {
+      top: 100px;
+      left: 100px;
+      right: 100px;
+      bottom: 100px;
+      background: #1052bc;
+      color: white;
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s;
+    }
+
+    .open .l3 {
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s;
+      -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      opacity: 1;
+    }
+
+    .open .l3:hover {
+      background: white;
+      color: #1052bc;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l3:active {
+      background: #72a4f3;
+      color: #1052bc;
+    }
+
+    .open .l3.toggle {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+    }
+
+    .l4 {
+      top: 150px;
+      left: 150px;
+      right: 150px;
+      bottom: 150px;
+      background: #1467eb;
+      color: white;
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+
+    .open .l4 {
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+      -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      opacity: 1;
+    }
+
+    .open .l4:hover {
+      background: white;
+      color: #1467eb;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l4:active {
+      background: #72a4f3;
+      color: #1467eb;
+    }
+
+    .open .l4.toggle {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+    }
+
+    .l5 {
+      top: 200px;
+      left: 200px;
+      right: 200px;
+      bottom: 200px;
+      background: #357DED;
+      color: white;
+      -webkit-transition-delay: 0.4s;
+      transition-delay: 0.4s;
+    }
+
+    .open .l5 {
+      -webkit-transition-delay: 0.4s;
+      transition-delay: 0.4s;
+      -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 180deg);
+      opacity: 1;
+    }
+
+    .open .l5:hover {
+      background: white;
+      color: #357DED;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .open .l5:active {
+      background: #72a4f3;
+      color: #357DED;
+    }
+
+    .open .l5.toggle {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 0deg);
+    }
+
+    .toggle {
+      line-height: 100px;
+      padding: 0;
+      width: 100px;
+      background: #357DED;
+      color: white;
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+      pointer-events: auto;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+
+    }
+
+    .open .toggle {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    .toggle:hover {
+      background: white;
+      color: #357DED;
+    }
+
+    .toggle:active {
+      background: #72a4f3;
+      color: #357DED;
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+    }
+  </style>
+</head>
+
+<body>
+	<h1 style="color:white;text-align:left;margin-left:50px;margin-bottom:50px;">Gordon Petry</h1>
+  <nav class="top-right"> <a href="https://owd.tcnj.edu/~petryg2/HTML/cv.html" class="disc l1">
+    <div>Cirriculum Vitae</div>
+  </a> <a href="https://owd.tcnj.edu/~petryg2/HTML/personal-site/index.html" class="disc l2">
+    <div>Personal Site</div>
+  </a> <a href="https://www.tcnj.edu/~petryg2/assignments.html" class="disc l3">
+    <div>Assignments</div>
+  </a> <a href="https://www.tcnj.edu/~petryg2/CSS_/resume.html" class="disc l4">
+    <div>Resume</div>
+  </a> <a class="disc l5 toggle"><img src="images/b_home_button.png" alt="[Home]" style="padding-top:25px;width:50px;height:45px;border:0;"></a> </nav>
+  <script>
+    toggle = document.querySelectorAll(".toggle")[0];
+    nav = document.querySelectorAll("nav")[0];
+    toggle_open_text = '<img src="images/b_home_button.png" alt="[Home]" style="padding-top:25px;width:50px;height:45px;border:0;">';
+    toggle_close_text = 'Close';
+
+    toggle.addEventListener('click', function() {
+      nav.classList.toggle('open');
+
+      if (nav.classList.contains('open')) {
+        toggle.innerHTML = toggle_close_text;
+      } else {
+        toggle.innerHTML = toggle_open_text;
+      }
+    }, false);
+  </script>
+
+</body>
+</html>

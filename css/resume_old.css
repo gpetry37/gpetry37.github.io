@@ -1,0 +1,354 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+  background-size: 20px;
+}
+h1 {
+font-family: sans-serif;
+font-size: 40px;
+color: #FFFFFF;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #357DED;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+p {
+  font-family: Arial;
+  font-size: 14px;
+}
+table {
+  font-family: Arial;
+  font-size: 14px;
+  padding: 10px;
+}
+ul {
+  color: #cccccc;
+}
+a:link {
+  color: #33adff;
+  text-decoration: none;
+}
+a:visited {
+  color: #0099ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #66c2ff;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-radius: 3px;
+}
+#example1 {
+  border: solid;
+  box-shadow: 5px 5px 5px darkgrey;
+  border-radius: 3px;
+}
+
+.header {
+    height: 175px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: right;
+    padding-right: 50px;
+    opacity: 1;
+    background-color: #357DED;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.imgandaddress {
+    height: 280px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.img {
+    float: left;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    background-color: #FFFFFF;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.address {
+    float: right;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 3px;
+}
+.clear {
+    clear: both;
+}
+
+.addressbox {
+    float: left;
+    color: #357DED;
+    padding-right: 20px;
+}
+
+.addressspot {
+    float: left;
+    color: black;
+}
+
+.phonebox {
+    float: left;
+    color: #357DED;
+    padding-right: 30px;
+}
+
+.phonespot {
+    float: left;
+    color: black;
+}
+.emailbox {
+    float: left;
+    color: #357DED;
+    padding-right: 35px;
+}
+.emailspot {
+    float: left;
+    color: black;
+}
+.urlbox {
+    float: left;
+    color: #357DED;
+    padding-right: 40px;
+}
+
+.urlspot {
+    float: left;
+    color: black;
+}
+
+.links {
+    background-color: #357DED;
+    margin-left: 70px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    padding: 2px;
+}
+
+.icons {
+    padding: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.middle {
+    height: 965px;
+    background-color: #F3F3F3;
+    padding: 50px;
+}
+
+.bio {
+    height: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.biography {
+    color: black;
+    line-height: 20pt;
+}
+
+.rc {
+    float: left;
+    padding: 10px;
+    width: 240px;
+    height: 385px;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    background-image: url('../images/pie_chart.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center bottom 20px;
+    border-radius: 3px;
+}
+
+.rs {
+    float: right;
+    padding: 10px;
+    width: 240px;
+    height: 385px;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+
+
+ul.rsul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+li.rs1 {
+    background-image: url('../images/windows10.png');
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: top 5px left 5px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+li.rs2 {
+    background: url('../images/Java.png') no-repeat left top;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: top 5px left 8px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+li.rs3 {
+    background: url('../images/html.png') no-repeat left top;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: top 5px left 5px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+li.rs4 {
+    background: url('../images/css.png') no-repeat left top;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: top 5px left 5px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+li.rs5 {
+    background: url('../images/sas_logo.png') no-repeat left top;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: top 5px left 8px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 3px;
+}
+
+hr {
+    display: block;
+    margin-top: 30em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.college {
+    float: left;
+    padding: 10px;
+    width: 240px;
+    height: 150px;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.hs {
+    float: right;
+    padding: 10px;
+    width: 240px;
+    height: 150px;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 3px;
+}
+.bottom {
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+    opacity: 1;
+    background-color: #357DED;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.slogan {
+    color: #FFFFFF;
+}
+
+.credit {
+    text-align: right;
+    color: white;
+}
+
+ul {
+    color: black;
+}
+#grad1 {
+background-image: linear-gradient(#F3F3F3, #DADADB);
+}
+
+#grad2 {
+background-image: linear-gradient(to right, #F3F3F3, #DADADB);
+}
+
+#grad3 {
+background-image: linear-gradient(to top, #6CA0F1, #4788EE);
+}

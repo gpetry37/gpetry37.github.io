@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Boxes and Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../css/new_styles.css"
+  type="text/css"
+  rel="stylesheet">
+  <style>
+  .box {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+  }
+  .tl {
+      background-color: #008080;
+      height: 50%;
+      width: 50%;
+      float: left;
+   }
+
+  .ptl {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .ptr {
+    margin: 10px;
+    font-size: 15px;
+  }
+  .pbl {
+    margin: 10px;
+    font-size: 15px;
+  }
+  .pbr {
+    margin: 10px;
+    font-size: 15px;
+  }
+  .tr {
+    background-color: #b2d8d8;
+    height: 50%;
+    width: 50%;
+    float: right;
+  }
+  .br {
+    background-color: #008080;
+    height: 50%;
+    width: 50%;
+    float: right;
+  }
+  .bl {
+    background-color: #b2d8d8;
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1 class="headerh1">Gordon Petry</h1>
+      <h3 class="headerh3">An Overly Ambitious Computer Science Student</h3>
+    </div>
+    <div class="links">
+      <h4 class="linksp">
+				<a class="hrefs" href="https://www.tcnj.edu/~petryg2/index.html">
+					<img src="../images/b_home_button.png" alt="[Home]" style="width:14px;height:14px;border:0;">
+				</a>
+				&bull;
+				<a class="hrefs" href="https://www.tcnj.edu/~petryg2/CSS_/resume.html">
+					Resume
+				</a>
+				&bull;
+				<a class="hrefs" href="https://owd.tcnj.edu/~petryg2/assignments.html">
+					Assignments
+				</a>
+				&bull;
+				<a class="hrefs" href="https://owd.tcnj.edu/~petryg2/HTML/personal-site/index.html">
+					Personal Site
+				</a>
+				&bull;
+				<a class="hrefs" href="https://owd.tcnj.edu/~petryg2/HTML/cv.html">
+					CV
+				</a>
+				&bull;
+			</h4>
+    </div>
+    <div class="base">
+      <h1>Boxes and Layouts</h1>
+      <div class="box">
+        <div class="tl">
+          <p class="ptl">Favorite Movies</p>
+        </div>
+        <div class="tr">
+          <p class="ptr">Back to the Future</p>
+          <p class="ptr">Baby Driver</p>
+          <p class="ptr">Marvel</p>
+        </div>
+        <div class="bl">
+          <p class="pbl">Alien</p>
+          <p class="pbl">The LEGO Movie</p>
+          <p class="pbl">Kingsman</p>
+        </div>
+        <div class="br">
+          <p class="pbr"><img src="../images/alien.png" alt="Alien"
+            style="width:130px;height:80px;border:0;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  </html>

@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "1791 Constitution W01 Regular";
+  src: url("../fonts/882e10443fd9b780036f6ffa6609fd00.eot");
+  /* IE9*/
+  src: url("../fonts/882e10443fd9b780036f6ffa6609fd00.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/882e10443fd9b780036f6ffa6609fd00.woff2") format("woff2"),
+    /* chrome、firefox */
+    url("../fonts/882e10443fd9b780036f6ffa6609fd00.woff") format("woff"),
+    /* chrome、firefox */
+    url("../fonts/882e10443fd9b780036f6ffa6609fd00.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/882e10443fd9b780036f6ffa6609fd00.svg#1791 Constitution W01 Regular") format("svg");
+  /* iOS 4.1- */
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-image: url(../images/wood.jpg);
+  height: auto;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 90%;
+  background-image: url(../images/parchment_paper.jpg);
+  opacity: 1;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #191919;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.headerh1 {
+  text-align: top;
+  color: black;
+  font-size: 40px;
+}
+
+.headerh3 {
+  text-align: top;
+  font-size: 24px;
+  color: black;
+}
+
+.links {
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.linksp {
+  color: black;
+  padding: 5px;
+}
+
+.hrefs {
+  text-decoration: none;
+  color: black;
+}
+
+.base {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.home {
+  width: 15px;
+  height: 15px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "1791 Constitution W01 Regular" !important;
+  font-size: 48px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2,
+h3 {
+  font-family: "1791 Constitution W01 Regular" !important;
+  font-size: 32px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+table {
+  color: #cccccc;
+  font-family: Arial;
+  font-size: 14px;
+}
+ul {
+  color: black;
+}
+a {
+  font-family: "1791 Constitution W01 Regular";
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+a:link {
+  color: #800000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #8B0000;
+}
+
+a:active {
+  color: #000000;
+}

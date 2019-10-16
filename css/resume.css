@@ -1,0 +1,354 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+  background-size: 1.4285714285714286em;
+}
+h1 {
+font-family: sans-serif;
+font-size: 2.857142857142857em;
+color: #FFFFFF;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 2.142857142857143em;
+  color: #357DED;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.4285714285714286em;
+  color: #000000;
+}
+p {
+  font-family: Arial;
+  font-size: 1em;
+}
+table {
+  font-family: Arial;
+  font-size: 1em;
+  padding: 0.7142857142857143em;
+}
+ul {
+  color: #cccccc;
+}
+a:link {
+  color: #33adff;
+  text-decoration: none;
+}
+a:visited {
+  color: #0099ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #66c2ff;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50em;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-radius: 0.21428571428571427em;
+}
+#example1 {
+  border: solid;
+  box-shadow: 0.35714285714285715em 0.35714285714285715em 0.35714285714285715em darkgrey;
+  border-radius: 0.21428571428571427em;
+}
+
+.header {
+    height: 12.5em;
+    padding-top: 3.5714285714285716em;
+    padding-left: 3.5714285714285716em;
+    padding-right: 3.5714285714285716em;
+    text-align: right;
+    padding-right: 3.5714285714285716em;
+    opacity: 1;
+    background-color: #357DED;
+    border-top-left-radius: 0.21428571428571427em;
+    border-top-right-radius: 0.21428571428571427em;
+}
+
+.imgandaddress {
+    height: 20em;
+    padding-top: 3.5714285714285716em;
+    padding-left: 3.5714285714285716em;
+    padding-right: 3.5714285714285716em;
+    padding-bottom: 3.5714285714285716em;
+}
+
+.img {
+    float: left;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 17.142857142857142em;
+    background-color: #FFFFFF;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+
+.address {
+    float: right;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 17.142857142857142em;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+.clear {
+    clear: both;
+}
+
+.addressbox {
+    float: left;
+    color: #357DED;
+    padding-right: 1.4285714285714286em;
+}
+
+.addressspot {
+    float: left;
+    color: black;
+}
+
+.phonebox {
+    float: left;
+    color: #357DED;
+    padding-right: 2.142857142857143em;
+}
+
+.phonespot {
+    float: left;
+    color: black;
+}
+.emailbox {
+    float: left;
+    color: #357DED;
+    padding-right: 2.5em;
+}
+.emailspot {
+    float: left;
+    color: black;
+}
+.urlbox {
+    float: left;
+    color: #357DED;
+    padding-right: 2.857142857142857em;
+}
+
+.urlspot {
+    float: left;
+    color: black;
+}
+
+.links {
+    background-color: #357DED;
+    margin-left: 5em;
+    width: 9.285714285714286em;
+    height: 2.857142857142857em;
+    border-radius: 0.35714285714285715em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.14285714285714285em;
+}
+
+.icons {
+    padding: 0.5em;
+    padding-left: 0.5714285714285714em;
+    padding-right: 0.5714285714285714em;
+}
+
+.middle {
+    height: 68.92857142857143em;
+    background-color: #F3F3F3;
+    padding: 3.5714285714285716em;
+}
+
+.bio {
+    height: 11.428571428571429em;
+    padding-top: 0.7142857142857143em;
+    padding-bottom: 0.7142857142857143em;
+    padding-left: 2.142857142857143em;
+    padding-right: 2.142857142857143em;
+    background-color: white;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+
+.biography {
+    color: black;
+    line-height: 20pt;
+}
+
+.rc {
+    float: left;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 27.5em;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    background-image: url('../images/pie_chart.png');
+    background-size: 12.857142857142858em;
+    background-repeat: no-repeat;
+    background-position: center bottom 1.4285714285714286em;
+    border-radius: 0.21428571428571427em;
+}
+
+.rs {
+    float: right;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 27.5em;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+
+
+
+ul.rsul {
+    list-style-type: none;
+    padding: 1.4285714285714286em;
+    margin: 0;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+
+li.rs1 {
+    background-image: url('../images/windows10.png');
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: top 0.35714285714285715em left 0.35714285714285715em;
+    border-style: solid;
+    padding: 0.7142857142857143em;
+    padding-left: 2.857142857142857em;
+    margin-bottom: 0.7142857142857143em;
+    border-radius: 0.21428571428571427em;
+}
+
+li.rs2 {
+    background: url('../images/Java.png') no-repeat left top;
+    background-size: 1.6428571428571428em;
+    background-repeat: no-repeat;
+    background-position: top 0.35714285714285715em left 0.5714285714285714em;
+    border-style: solid;
+    padding: 0.7142857142857143em;
+    padding-left: 2.857142857142857em;
+    margin-bottom: 0.7142857142857143em;
+    border-radius: 0.21428571428571427em;
+}
+
+li.rs3 {
+    background: url('../images/html.png') no-repeat left top;
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: top 0.35714285714285715em left 0.35714285714285715em;
+    border-style: solid;
+    padding: 0.7142857142857143em;
+    padding-left: 2.857142857142857em;
+    margin-bottom: 0.7142857142857143em;
+    border-radius: 0.21428571428571427em;
+}
+
+li.rs4 {
+    background: url('../images/css.png') no-repeat left top;
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: top 0.35714285714285715em left 0.35714285714285715em;
+    border-style: solid;
+    padding: 0.7142857142857143em;
+    padding-left: 2.857142857142857em;
+    margin-bottom: 0.7142857142857143em;
+    border-radius: 0.21428571428571427em;
+}
+
+li.rs5 {
+    background: url('../images/sas_logo.png') no-repeat left top;
+    background-size: 1.4285714285714286em;
+    background-repeat: no-repeat;
+    background-position: top 0.35714285714285715em left 0.5714285714285714em;
+    border-style: solid;
+    padding: 0.7142857142857143em;
+    padding-left: 2.857142857142857em;
+    border-radius: 0.21428571428571427em;
+}
+
+hr {
+    display: block;
+    margin-top: 30em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.07142857142857142em;
+}
+
+.college {
+    float: left;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 13.5714285714285716em;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+
+.hs {
+    float: right;
+    padding: 0.7142857142857143em;
+    width: 17.142857142857142em;
+    height: 13.5714285714285716em;
+    background-color: #F3F3F3;
+    opacity: 1;
+    border-style: solid;
+    border-radius: 0.21428571428571427em;
+}
+.bottom {
+    height: 7.142857142857143em;
+    padding-top: 1.7857142857142858em;
+    padding-left: 3.5714285714285716em;
+    padding-right: 3.5714285714285716em;
+    padding-bottom: 4.285714285714286em;
+    text-align: center;
+    opacity: 1;
+    background-color: #357DED;
+    border-bottom-left-radius: 0.21428571428571427em;
+    border-bottom-right-radius: 0.21428571428571427em;
+}
+
+.slogan {
+    color: #FFFFFF;
+}
+
+.credit {
+    text-align: right;
+    color: white;
+}
+
+ul {
+    color: black;
+}
+#grad1 {
+background-image: linear-gradient(#F3F3F3, #DADADB);
+}
+
+#grad2 {
+background-image: linear-gradient(to right, #F3F3F3, #DADADB);
+}
+
+#grad3 {
+background-image: linear-gradient(to top, #6CA0F1, #4788EE);
+}
