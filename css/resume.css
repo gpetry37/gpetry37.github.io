@@ -176,8 +176,8 @@ a:active {
 
 .bio {
     height: 11.428571428571429em;
-    padding-top: 0.7142857142857143em;
-    padding-bottom: 0.7142857142857143em;
+    padding-top: 0.4142857142857143em;
+    padding-bottom: 2.9142857142857143em;
     padding-left: 2.142857142857143em;
     padding-right: 2.142857142857143em;
     background-color: white;
@@ -242,7 +242,7 @@ li.rs2 {
     background: url('../images/Java.png') no-repeat left top;
     background-size: 1.6428571428571428em;
     background-repeat: no-repeat;
-    background-position: top 0.35714285714285715em left 0.5714285714285714em;
+    background-position: top 0.15714285714285715em left 0.4714285714285714em;
     border-style: solid;
     padding: 0.7142857142857143em;
     padding-left: 2.857142857142857em;
@@ -251,10 +251,10 @@ li.rs2 {
 }
 
 li.rs3 {
-    background: url('../images/html.png') no-repeat left top;
-    background-size: 2em;
+    background: url('../images/cpp_icon.png') no-repeat left top;
+    background-size: 2.4285714285714286em;
     background-repeat: no-repeat;
-    background-position: top 0.35714285714285715em left 0.35714285714285715em;
+    background-position: top 0.13714285714285715em left 0.1014285714285714em;
     border-style: solid;
     padding: 0.7142857142857143em;
     padding-left: 2.857142857142857em;
@@ -263,10 +263,10 @@ li.rs3 {
 }
 
 li.rs4 {
-    background: url('../images/css.png') no-repeat left top;
+    background: url('../images/html.png') no-repeat left top;
     background-size: 2em;
     background-repeat: no-repeat;
-    background-position: top 0.35714285714285715em left 0.35714285714285715em;
+    background-position: top 0.24285714285715em left 0.35714285714285715em;
     border-style: solid;
     padding: 0.7142857142857143em;
     padding-left: 2.857142857142857em;
@@ -275,10 +275,10 @@ li.rs4 {
 }
 
 li.rs5 {
-    background: url('../images/sas_logo.png') no-repeat left top;
-    background-size: 1.4285714285714286em;
+    background: url('../images/css.png') no-repeat left top;
+    background-size: 2em;
     background-repeat: no-repeat;
-    background-position: top 0.35714285714285715em left 0.5714285714285714em;
+    background-position: top 0.35714285714285715em left 0.35714285714285715em;
     border-style: solid;
     padding: 0.7142857142857143em;
     padding-left: 2.857142857142857em;
@@ -287,7 +287,7 @@ li.rs5 {
 
 hr {
     display: block;
-    margin-top: 35em;
+    margin-top: 34em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
@@ -299,7 +299,7 @@ hr {
     float: left;
     padding: 0.7142857142857143em;
     width: 17.142857142857142em;
-    height: 13.5714285714285716em;
+    height: 8.5714285714285716em;
     background-color: #F3F3F3;
     opacity: 1;
     border-style: solid;
@@ -310,7 +310,7 @@ hr {
     float: right;
     padding: 0.7142857142857143em;
     width: 17.142857142857142em;
-    height: 13.5714285714285716em;
+    height: 8.5714285714285716em;
     background-color: #F3F3F3;
     opacity: 1;
     border-style: solid;
